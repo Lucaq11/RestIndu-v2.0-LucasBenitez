@@ -1,0 +1,79 @@
+* {
+    list-style: none;
+}
+
+.main {
+    background-color: aliceblue;
+}
+
+.main__punto {
+    background-color: aliceblue;
+    height: 80vh;
+}
+
+.div__mapa {
+    height: 80%;
+    text-align: center;
+}
+
+.div__mapa-iframe {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+}
+
+.h2__map {
+    font-family: 'Cookie', cursive, bold;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+
+.nav__logo {
+    height: 10vh;
+    width: 10vh;
+}
+
+.nav__background {
+    background-color: #f10dcd;
+    background-image: url(http://imgfz.com/i/bOnyMmW.jpeg);
+    background-position: center;
+    padding: 1%;
+    background-repeat: no-repeat;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.nav-link {
+    font-family: 'Cookie', cursive, bold;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+h4 {
+    font-family: 'Cookie', cursive, bold;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+
+.div__img-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+}
+
+
+@media (max-width: 450px) {
+    
+.footer {
+    padding-bottom: 200px;
+}
+}
